@@ -5,13 +5,13 @@ import hashlib
 user_id = None #user_id
 movie_id = None
 
-base_url = "http://www.omdbapi.com/?apikey=7413bdde" #api keys
+base_url = "http://www.omdbapi.com/?apikey=api_key" #api keys
 
 conn = pymysql.connect(     #connecting to db
     host="localhost",
     port=3306,
     user="root",
-    password="0ne0ut$",
+    password="my_pass",
     database="moviedb",
     connect_timeout=5
 )
